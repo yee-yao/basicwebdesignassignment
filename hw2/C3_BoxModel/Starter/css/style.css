@@ -1,0 +1,13 @@
+.box-a {
+  background-color: green;
+  border: 10px solid lightgreen;
+  margin-bottom: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.box-b {
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+}
