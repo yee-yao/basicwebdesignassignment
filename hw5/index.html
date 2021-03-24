@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>JQuery</title>
+	
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" >
+$(document).ready(function(){
+/*$('h2').css('color', 'green')
+$('h2').css('fontSize', '40px');*/
+
+/*$('h2').css('color', 'green').css('fontSize', '40px');*/
+
+//點擊切換圖片顏色
+	/*$('#dtd').css('background-color', 'red');
+	$('#dtd').click(function(){
+		$('#dtd').css('background-color', 'green');
+	});
+
+});*/
+
+	/*$("#btn1").click(function(){
+		alert("Text: " + $("#test").text());	
+	});
+	$("#btn2").click(function(){
+		alert("HTML: " + $("#test").html());
+	});
+});*/
+
+	$(document).ready(function(){
+	$("#btn1 ").click(function(){
+		alert("Value: " + $("#test2").val());
+	});
+	$("#btn2 ").click(function(){
+	$("#test2").val("DTD");
+	});
+});
+</script>
+</head>
+	
+<body>
+
+<h2>Hi JQuery</h2>
+<!--<div id="dtd"><img src="images/111.jpg">Hi jQuery</div>-->
+<p id="test">This is some <b>bold</b> text in a paragraph.</p>
+<button id="btn1">Show Text</button>
+<button id="btn2">Show HTML</button>
+<p>Name: <input type="text" id="test2" value="Mickey Mouse"></p>
+<button id="btn1">Show Value</button>
+<button id="btn2">Input Value</button><br>
+Input field: <br>
+<input type="text" id="test3" value="DTD">
+</body>
+</html>
