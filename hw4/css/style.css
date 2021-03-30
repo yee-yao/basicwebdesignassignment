@@ -1,0 +1,175 @@
+.background{
+	color: #EDF2C5;
+}
+
+.all{
+	margin: 53px 160px 35px 160px; 
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.headleft{
+	display: flex;
+	justify-content: left;
+	color: #778A50; 
+	font-family: Arial Black;
+}
+
+.headright{
+	display: flex;
+	justify-content: right;
+	align-self: flex-end;
+
+}
+
+.button{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #778A50;
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-bottom: 17px;
+	padding: 3.2px 7px;
+	color: #778A50;
+	font-family: Arial Black;
+	text-decoration: none;
+}
+
+.icon{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: 17px;
+}
+
+.line1{
+	background-color: #778A50;
+	height: 30px;
+	width: 0.5px;
+	border: none;
+}
+
+.nav{
+	/*區塊圓框收角*/
+	border-radius: 3px; 
+	background-color: #778A50;
+	padding: 16px 317px 16px 0px;
+	margin-bottom: 20px;
+}
+
+.nav-list{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list-item{
+	list-style: none;
+}
+
+.nav-list-item-link{
+	display: block;
+	color: #EDF2C5;
+	text-decoration: none;
+	padding: 0px 30px;
+	border: #778A50;
+	font-family: Arial Black;
+	white-space: nowrap;
+}
+
+.pumpkin{
+	width: 100%;
+}
+
+.content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenthead{
+	display: block;
+	justify-content: space-between;
+	color: #EDF2C5;
+	background-color: #778A50;
+	padding: 15px 30px;
+	font-family: Arial Black;
+	border: #778A50;
+	box-sizing: border-box;
+	border-radius: 3px; 
+}
+
+.leftcontent{
+	display: block;
+	width: 48%;
+}
+
+.leftimg{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+.rightcontent{
+	display: block;
+	width: 48%;
+}
+
+.righthead{
+	font-family: Arial Black;
+	display: block;
+	color: #EDF2C5;
+	background-color: #778A50;
+	text-decoration: none;
+	padding: 17px 30px 16px 30px;
+	border: #778A50;
+}
+
+.rightcolor{
+	background-color: #F7FBDA;
+	padding: 5px 15px 5px 15px;
+}
+
+.rightword1{
+	font-family: Arial;
+	font-size: 12px;
+	color: #7D7D7D;
+	margin-bottom: 12px;
+}
+
+.rightword2{
+	font-family: Arial;
+	font-size: 12px;
+	color: #7D7D7D;
+	margin-top: 12px;
+}
+
+.line2{
+	background-color: #7D7D7D;
+	height: 0.5px;
+	width: 100%;
+	border: none;
+	margin: 0px;
+}
+
+.footer{
+	font-family: Arial;
+	text-align: center;
+	background-color: #778A50;
+	color: #EDF2C5;
+	padding: 24px 479px 25px 479px;
+}
+
+.footerword{
+	white-space: nowrap;
+}	
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
